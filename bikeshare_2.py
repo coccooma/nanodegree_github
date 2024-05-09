@@ -182,7 +182,7 @@ def user_stats(df):
 
 # Function to display data per user's request
 def display_data(df):
-    """Displays 5 rows of data from the csv file for the selected city.
+    """Displays 5 rows of data from the csv file for the selected city when user requested it.
 
     Args:
         param1 (df): The data frame you wish to work with.
