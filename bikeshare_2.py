@@ -128,8 +128,10 @@ def trip_duration_stats(df):
 
     # display total travel time
     total_duration = df['Trip Duration'].sum()
+
     # finds duration in minutes and seconds
     minute, second = divmod(total_duration, 60)
+    
     # finds duration in hour and minutes
     hour, minute = divmod(minute, 60)
     print(f"The total trip duration is {hour} hours, {minute} minutes and {second} seconds.")
